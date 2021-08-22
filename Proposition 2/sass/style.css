@@ -1,0 +1,47 @@
+.btn-blue {
+  padding: 12px 24px;
+  border-radius: 35px;
+  border: 1px solid black;
+  color: #ff0037;
+  background-color: blue;
+}
+
+.btn-red {
+  padding: 12px 36px;
+  border-radius: 6px;
+  border: 1px solid black;
+  color: #fbff00;
+  background-color: red;
+}
+
+.btn-green {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid black;
+  color: black;
+  background-color: green;
+}
+
+.btn {
+  padding: 15px 20;
+  border-radius: 5;
+  border: 1px solid black;
+  color: #A5A5A5;
+  background-color: #A5A5A5;
+}/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+.btn{
+  text-decoration: none;
+  color : #EEEEEE;
+  border-radius: 15px;
+  padding: 20px 55px;
+  background-color: #44443F;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 40px;
+  transition: background-color 500ms;
+}

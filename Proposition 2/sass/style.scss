@@ -1,0 +1,38 @@
+$white: #ff0037;
+$carmin: rgb(251, 255, 0);
+
+@mixin btn($radius: 4, $color: black, $padding: 24) {
+    padding: 12px $padding + px;
+    border-radius: $radius + px;
+    border: 1px solid black;
+    color: $color;
+}
+
+.btn-blue {
+    @include btn(35, $white);
+    background-color: blue;
+}
+
+.btn-red {
+    @include btn(6, $carmin, 36);
+    background-color: red;
+}
+
+.btn-green {
+    @include btn;
+    background-color: green;
+}
+
+
+
+@mixin btn($radius : 5, $color :#A5A5A5, $padding : 20) {
+    padding: 15px $padding;
+    border-radius: $radius;
+    border : 1px solid black;
+    color : $color;
+}
+
+.btn{
+    @include btn;
+    background-color: #A5A5A5;
+}
